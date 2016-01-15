@@ -1,0 +1,24 @@
+{
+  "name": "fcc-timestamp",
+  "version": "1.0.0",
+  "description": "\"FCC Basejump: Timestamp Microservice\"",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^2.1.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edcheung1/heroku.git"
+  },
+  "author": "Edward Cheung <echeung1991@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edcheung1/heroku/issues"
+  },
+  "homepage": "https://github.com/edcheung1/heroku#readme"
+}
