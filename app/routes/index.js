@@ -17,7 +17,7 @@ module.exports = function(app) {
 				unixOut = apiPath;
 			} else if (!isNaN(Date.parse(apiPath))) {
 				var parseDate = new Date(apiPath);
-				unixOut = Date.parse(apiPath);
+				unixOut = Date.parse(apiPath)/1000;
 			} else {
 				res.json({unix: null, natural: null});
 				return;
